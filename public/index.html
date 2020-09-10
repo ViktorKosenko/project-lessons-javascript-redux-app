@@ -8,14 +8,27 @@
       content="width=device-width, initial-scale=1"
     />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Redux App</title>
   </head>
   <body>
-    <div id="root" class="jumbotron">
-      <h1 id="counter">0</h1>
-      <button id="dec" class="btn btn-primary">DEC</button>
-      <button id="inc" class="btn btn-primary">INC</button>
-      <button id="rnd" class="btn btn-primary">RND</button> 
+    <div id="root" class="background-app">
+      <div class="content">
+        <div class="counter-wrap">
+            <h1 id = "counter">0</h1>
+        </div>
+        <div class="btn-block">
+          <button id = "inc" class = "btn btn-inc">
+            <img src="./svg/inc.svg" alt="inc">
+          </button>
+          <button id = "dec" class = "btn btn-dec">
+            <img src="./svg/dec.svg" alt="dec">  
+          </button>
+          <button id = "res" class = "btn btn-res">
+            <img src="./svg/reset.svg" alt="reset">  
+          </button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
