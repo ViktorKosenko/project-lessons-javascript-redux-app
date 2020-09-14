@@ -1,8 +1,8 @@
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
-import reducer from './reducer';
 import React from 'react'; 
 import ReactDOM from 'react-dom';
+import reducer from './reducer';
 import App from './components/app';
 import './style.css';
 
@@ -14,4 +14,3 @@ ReactDOM.render(
     </Provider>
     , document.getElementById('root')
 );
-
